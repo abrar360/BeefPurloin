@@ -12,7 +12,7 @@ from email.MIMEText import MIMEText
 from email import Encoders
 import sys
 
-gmail_user ='youremail@gmail.com'
+gmail_user ='youremail@gmail.com' # REPLACE with your credentials
 gmail_pwd ='yourpassword'
 subject='log'
 text=''
