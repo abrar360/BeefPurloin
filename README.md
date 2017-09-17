@@ -3,13 +3,13 @@
  This project demonstrates how USB keyboard emulation can be exploited for malicious purposes using the Digispark ATtiny85 development board.
  
 ![](https://cdn.instructables.com/FKP/MAA2/HH2VJNW1/FKPMAA2HH2VJNW1.SMALL.jpg)
- 
- Objectives: 
- Minimize time for attacker to keep device plugged in
- Fit initial exploit code onto limited flash memory on ATtiny85
- Leave no traces behind after victim has been pwned
- 
- Software:
+ ------
+# Objectives: 
+ * Minimize time for attacker to keep device plugged in
+ * Fit initial exploit code onto limited flash memory on ATtiny85
+ * Leave no traces behind after victim has been pwned
+ ------
+ # Software:
  
 ### payload.ino
 * AtTiny84 emulates keyboard
