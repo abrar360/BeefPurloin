@@ -1,4 +1,4 @@
-# ATtinyPasswordSwiper
+# BeefPurloin
 
  This project demonstrates how USB keyboard emulation can be exploited using the Digispark ATtiny85 development board to swipe passwords saved in Google Chrome.
  
