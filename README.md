@@ -15,7 +15,7 @@
 **OR**
 
 1. Victim leaves Windows computer unattended and unlocked to get some coffee
-2. Attacker approaches with hotspot(Ex. 'attwifi') ***This is only necessary if there are browsing restrictions on the host network***
+2. Attacker approaches with hotspot (Ex. 'attwifi') ***This is only necessary if there are browsing restrictions on the host network***
 3. Attacker plugs in ATtiny via USB and waits for red LED signal.
 4. Attacker unplugs device and flees the scene
 5. Attack executes
